@@ -20,7 +20,7 @@ import spacy
 with open("svm_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("tfidf_vectorizer.pkl", "rb") as file:
+with open("tfdif_vectorizer.pkl", "rb") as file:
     vectorizer = pickle.load(file)
 
 nltk.download('stopwords')
