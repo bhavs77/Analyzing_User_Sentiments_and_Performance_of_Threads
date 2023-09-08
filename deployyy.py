@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1BeI_cg02_D2NvD1hlX3qjPDPqY4xdfRG
 """
 
-
-
-
 import streamlit as st
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
