@@ -20,7 +20,7 @@ import spacy
 with open("svm_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("tfidf_vectorizer.pkl", "rb") as file:
+with open("tfdif_vectorizer.pkl", "rb") as file:
     vectorizer = pickle.load(file)
 
 nltk.download('stopwords')
@@ -50,7 +50,7 @@ def lemmatizer(text):
 
 st.title("Sentiment Analysis App")
 st.markdown("By Jahnavi")
-image = Image.open("threads-2.jpg")
+image = Image.open("thread.jpeg")
 st.image(image, use_column_width=True)
 
 st.subheader("Enter your text here:")
