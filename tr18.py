@@ -11,7 +11,6 @@ Original file is located at
 
 import streamlit as st
 import pickle
-import sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 from PIL import Image
